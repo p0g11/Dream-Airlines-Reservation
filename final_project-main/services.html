@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome link -->
+    <script
+      src="https://kit.fontawesome.com/b7c265b79a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="services.css" />
+    <title>SERVICES | AIRLINE</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #f6f4e8"
+      >
+        <div class="container-md">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="./assets/img/logo.png" alt="" />DREAM
+            <span class="color">AIRLINE</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item active" href="services.html"
+                      >Plan travel</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="http://localhost/login_system/login_form.php"
+                      >Book now!</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Help and Support
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact us</a>
+                  </li>
+                  <li><a class="dropdown-item" href="FAQ'S.html">FAQ's</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- START OF CONTENT -->
+    <!-- carousel -->
+    <div
+      class="carousel slide"
+      data-bs-ride="carousel"
+      id="carouselExampleIndicators"
+    >
+      <div class="overlay"></div>
+      <div class="carousel-indicators">
+        <button
+          aria-label="Slide 1"
+          class="active"
+          data-bs-slide-to="0"
+          data-bs-target="#carouselExampleIndicators"
+          type="button"
+        ></button>
+        <button
+          aria-label="Slide 2"
+          data-bs-slide-to="1"
+          data-bs-target="#carouselExampleIndicators"
+          type="button"
+        ></button>
+        <button
+          aria-label="Slide 3"
+          data-bs-slide-to="2"
+          data-bs-target="#carouselExampleIndicators"
+          type="button"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img
+            alt="..."
+            class="img-carousel d-block"
+            src="./assets/img/car1.png"
+          />
+          <div class="carousel-caption hide-sm">
+            <div class="container text-content">
+              <h3 class="title-company">
+                TO TRAVEL <br />
+                IS<br />TO LIVE
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img
+            alt="..."
+            class="img-carousel d-block"
+            src="./assets/img/car2.png"
+          />
+          <div class="carousel-caption hide-sm">
+            <div class="container text-content">
+              <h3 class="title-company">
+                WORK, <br />
+                TRAVEL, <br />
+                SAVE,<br />
+                REPEAT.
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img
+            alt="..."
+            class="img-carousel d-block"
+            src="./assets/img/car3.png"
+          />
+          <div class="carousel-caption hide-sm">
+            <div class="container text-content">
+              <h3 class="title-company">
+                WE TRAVEL <br />
+                not to escape life<br />BUT FOR LIFE<br />not to escape us
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        data-bs-slide="prev"
+        data-bs-target="#carouselExampleIndicators"
+        type="button"
+      >
+        <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        data-bs-slide="next"
+        data-bs-target="#carouselExampleIndicators"
+        type="button"
+      >
+        <span aria-hidden="true" class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- end of carousel -->
+
+    <section class="bg-section" id="section">
+      <div class="background-images">
+        <div class="content">
+          <h1>Explore the beautiful places</h1>
+        </div>
+        <div class="container">
+          <div class="row row-container">
+            <div class="col content-bg">
+              <a
+                href="https://www.thebrokebackpacker.com/best-places-to-visit-in-london/"
+                target="_blank"
+              >
+                <img src="./assets/img/bg1.png" class="img-size" />
+              </a>
+              <h1>
+                <a
+                  href="https://www.thebrokebackpacker.com/best-places-to-visit-in-london/"
+                  target="_blank"
+                >
+                  Destination London</a
+                >
+              </h1>
+              <p class="text-center">
+                London is a diverse and exciting city with some of the world's
+                best sights and attractions. You can't fail to be excited by
+                London's amazing attractions. See London from above on the
+                London Eye; meet a celebrity at Madame Tussauds.
+              </p>
+            </div>
+
+            <div class="col content-bg">
+              <a
+                href="https://www.discoverhongkong.com/eng/index.html"
+                target="_blank"
+              >
+                <img src="./assets/img/bg2.jpg" class="img-size" />
+              </a>
+              <h1>
+                <a
+                  href="https://www.discoverhongkong.com/eng/index.html"
+                  target="_blank"
+                >
+                  Hong Kong Tourism Board</a
+                >
+              </h1>
+              <p class="text-center">
+                Hong Kong is a place where you can have fun and relaxation in a
+                short time. It’s also very safe for tourists. Here you will find
+                shops, restaurants and cultural centers where you can buy
+                anything you want.
+              </p>
+            </div>
+            <div class="col content-bg">
+              <a href="https://www.japan.travel/en/ph/" target="_blank">
+                <img src="./assets/img/bg3.jpg" class="img-size" />
+              </a>
+              <h1>
+                <a href="https://www.japan.travel/en/ph/" target="_blank">
+                  Japan National Tourism</a
+                >
+              </h1>
+              <p class="text-center">
+                Japan has a very rich culture, with a long history and a rich
+                tradition. The native people are known for their precision and
+                skill with calligraphy and architecture, as well as their
+                intricate daily rituals. Many ancient buildings remain exactly
+                as they were when left more than a hundred years ago by the
+                Japanese government to commemorate the start of a new imperial
+                era in 1925.
+              </p>
+            </div>
+            <div class="col content-bg">
+              <a
+                href="https://m.tours4fun.com/tours/spain?utm_source=google&utm_medium=cpc&utm_term=%2Bspain+%2Btrips&utm_campaign=Europe_HVHP_S-LP&gclid=CjwKCAjwqJSaBhBUEiwAg5W9p8tCwQx9eBsZtS5KLf7ysF4q6PGD2e5KoSBHKDjlAtApiWFTdND-fhoCqC8QAvD_BwE&__ref_dsk=https%253A%252F%252Fwww.google.com%252F"
+                target="_blank"
+              >
+                <img src="./assets/img/bg4.jpg" class="img-size" />
+
+                <h1>
+                  <a
+                    href="https://m.tours4fun.com/tours/spain?utm_source=google&utm_medium=cpc&utm_term=%2Bspain+%2Btrips&utm_campaign=Europe_HVHP_S-LP&gclid=CjwKCAjwqJSaBhBUEiwAg5W9p8tCwQx9eBsZtS5KLf7ysF4q6PGD2e5KoSBHKDjlAtApiWFTdND-fhoCqC8QAvD_BwE&__ref_dsk=https%253A%252F%252Fwww.google.com%252F"
+                    target="_blank"
+                  >
+                    Spain Tour</a
+                  >
+                </h1>
+                <p class="text-center">
+                  Spain is one of the most popular tourists destinations in the
+                  world. Being situated on the Iberian Peninsula, it offers
+                  visitors a range of natural landscapes, diverse cultures and
+                  interesting destinations throughout the country. It is easily
+                  accessible by sea or land transportation.
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="third-section">
+      <p class="heading-paragraph">
+        It can be tough to construct a list of the finest travel destinations
+        because the world is packed with such a range of wonderful and beautiful
+        places to visit. Considering a tourist who, for whatever reason, has
+        never left his or her hometown, what would be the first sites he or she
+        would visit? The list of the top places to visit in the globe must
+        include large cities such as New York, Paris, London, etc., each of
+        which contains a myriad of distinct attractions or must-see
+        destinations. The list also contains particular places, monuments, and
+        locales, each of which merits a visit in its own right. We recognize
+        that things are tough for travellers. We cannot travel to the
+        destinations on our bucket list at this time, but we can begin planning
+        for them. This list is a fantastic starting point for determining where
+        to travel if travel restrictions are lifted. Continue reading to learn
+        about some of the most famous tourist spots in the globe.
+      </p>
+
+      <h3 class="places-name">1. Machu Picchu, Peru</h3>
+      <img src="./assets/img/1bg.png" class="third-img" />
+
+      <p class="text-center third-paragraph">
+        Machu Picchu was further excavated in 1915 by Bingham, in 1934 by the<br />
+        Peruvian archaeologist Luis E. Valcarcel, and in 1940–41 by Paul
+        Fejos.<br />
+        Additional discoveries throughout the Cordillera de Vilcabamba have<br />
+        shown that Machu Picchu was one of a series of pucaras (fortified
+        sites), <br />
+        tambos (travelers’ barracks, or inns), and signal towers along<br />
+        the extensive Inca foot highway.<br /><br />
+        The dwellings at Machu Picchu were probably built and occupied from
+        the<br />
+        mid-15th to the early or mid-16th century. Machu Picchu’s
+        construction<br />
+        style and other evidence suggest that it was a palace complex of the<br />
+        ruler Pachacuti Inca Yupanqui (reigned c. 1438–71). Several dozen<br />
+        skeletons were excavated there in 1912, and, because most of those
+        were<br />
+        initially identified as female, Bingham suggested that Machu Picchu
+        was<br />
+        a sanctuary for the Virgins of the Sun (the Chosen Women), an elite
+        Inca<br />
+        group. Technology at the turn of the 21st-century, however, identified
+        a<br />
+        significant proportion of males and a great diversity in physical
+        types.<br />
+        Both skeletal and material remains now suggest to scholars that Machu<br />
+        Picchu served as a royal retreat. The reason for the site’s
+        abandonment<br />
+        is also unknown, but lack of water may have been a factor.<br /><br />
+        The journey to Machu Picchu typically starts in
+        <a
+          href="https://www.planetware.com/tourist-attractions-/cusco-cuzco-qosqo-per-cs-cs.htm    "
+          target="_blank"
+          >the mountain city of<br />
+          Cusco,</a
+        >
+        which was the capital city of the Inca Empire. Cusco is a<br />
+        fascinating place to explore-be sure to spend a few days there before
+        or<br />
+        after your Machu Picchu adventure. It's possible to hike the Inca
+        Trail<br />
+        from Cusco to Machu Picchu. The full hike takes five days, but you
+        can<br />
+        also start closer and do a one-, two- or three-day hike along the
+        trail.<br />
+        Most people take the train from Cusco, which takes about three and a
+        half hours.<br />
+      </p>
+      <h3 class="places-name">2. The Grand Canyon, Arizona</h3>
+      <img src="./assets/img/2bg.png" class="third-img" />
+
+      <p class="text-center third-paragraph">
+        This incredible sight, one of the
+        <a
+          href="https://www.planetware.com/magic-travel-a-guide-to-the-seven-natural-wonders-of-the-world.htm "
+          target="_blank"
+          >seven natural wonders of the world,</a
+        >
+        is<br />
+        in the U.S. state of Arizona. It's one of those beautiful places for<br />
+        which photos or video just don't do it justice-its sheer size and
+        scope<br />
+        is hard to comprehend.<br /><br />
+        With geology formed over the past two billion years, yes billion, the<br />
+        277 mile-long canyon itself is believed to have been started around
+        five<br />
+        to six million years ago. It was formed by the flow of the Colorado<br />
+        River, which still flows through it and continues to erode the
+        geology<br />
+        along its course. The Grand Canyon is up to 18 miles wide in places
+        and<br />
+        up to a mile deep. Imagine standing on the edge, looking down a sheer<br />
+        rock wall almost a mile to the river below.<br /><br />
+        Most visitors come to the area referred to as the South Rim. This is<br />
+        where a number of
+        <a
+          href="https://www.planetware.com/arizona/top-rated-hiking-trails-at-the-grand-canyon-us-az-230.htm"
+          target="_blank"
+        >
+          impressive hiking trails into the Grand Canyon</a
+        >
+        begin<br />
+        and great overlooks are spread along the rim road, known as Desert
+        View<br />
+        Drive. A range of accommodations are available here and nearby, from<br />
+        tents to a rustic luxury canyon-side resort built from logs. A few<br />
+        accommodations are also found on the remote North Rim.<br /><br />
+        Many visitors access the canyon via the historic Grand Canyon
+        Railway,<br />
+        which runs from the town of Williams, Arizona. The 64-mile rail line<br />
+        provides an entertaining way to get to the canyon with food and live<br />
+        music onboard. For those who prefer to drive, see our articles on<br />
+        driving north from Phoenix to the Grand Canyon or driving from Las
+        Vegas<br />
+        to the Grand Canyon.<br />
+      </p>
+      <h3 class="places-name">3. Rome, Italy</h3>
+      <img src="./assets/img/3bg.png" class="third-img" />
+
+      <p class="text-center third-paragraph">
+        The Eternal City is more like a giant, living museum. Visitors are<br />
+        immersed in and surrounded by thousands of years of history. It's a<br />
+        relatively compact city, and a three-day itinerary gets you to the<br />
+        minimum number of must-see places.<br /><br />
+        These must-see sites for any visitor include the
+        <a
+          href="https://www.planetware.com/rome/colosseum-i-la-rcl.htm
+"
+          target="_blank"
+          >Colosseum</a
+        >
+        and adjacent<br />
+        <a
+          href="https://www.planetware.com/rome/roman-forum-i-la-rfr.htm
+"
+          target="_blank"
+        >
+          Roman Forum;</a
+        >
+        the
+        <a
+          href="https://www.planetware.com/rome/pantheon-i-la-rp.htm
+"
+          target="_blank"
+          >Pantheon;</a
+        >
+        and
+        <a
+          href="https://www.planetware.com/tourist-attractions-/vatican-city-scv-scv-rvc.htm
+"
+          target="_blank"
+          >Vatican City,
+        </a>
+        a separate country in the<br />
+        middle of central Rome.<br />
+        Take some time to explore the outskirts of Rome, too. Consider a hike<br />
+        along a tomb-lined section of the Appian Way, the ancient Roman<br />
+        superhighway, and a visit to one of the aqueduct ruins outside the
+        city.<br /><br />
+        If you feel like hitting the beach after all your exploring, Rome has
+        a<br />
+        <a
+          href="https://www.planetware.com/italy/best-beaches-near-rome-i-1-95.htm
+"
+          target="_blank"
+          >wonderful assortment of beach towns</a
+        >
+        just a short drive away on the Lazio<br />
+        Coast. Escape the heat, hustle, and bustle of the city to bathe in
+        the<br />
+        cool waters of the Tyrrhenian Sea.<br />
+      </p>
+      <h3 class="places-name">4. Maui, Hawaii</h3>
+      <img src="./assets/img/4bg.png" class="third-img" />
+
+      <p class="text-center third-paragraph">
+        This Hawaiian island offers a wide range of experiences for visitors.<br />
+        You can surf, enjoy a meal on the beach at a five-star luxury resort
+        in<br />
+        Wailea, ride a horse across a dormant volcano in Haleakala National<br />
+        Park, or hike through a rainforest in the West Maui Mountains. The<br />
+        natural scenery is amazing-it's truly one of the most beautiful
+        islands<br />
+        in the world. When it comes to accommodation, there is something for<br />
+        everyone here, from rustic hippie bungalow bed and breakfasts to<br />
+        five-star luxury resort hotels. Wailea has all the luxury
+        resorts-it's<br />
+        like the beachfront Beverly Hills of Maui. If you're staying here, be<br />
+        sure to venture out and spend some time in Kihei, where the locals
+        hang<br />
+        out.<br />
+      </p>
+      <h3 class="places-name">5. Masai Mara, Kenya</h3>
+      <img src="./assets/img/5bg.png" class="third-img" />
+
+      <p class="text-center third-paragraph">
+        Kenya's Masai Mara is an incredible bio-diverse area and a popular<br />
+        safari destination. It's an opportunity to see the "big five" animals<br />
+        (lion, leopard, rhinoceros, elephant, and Cape buffalo) all during
+        one<br />
+        trip or, if you're lucky, during one afternoon.<br /><br />
+        The protected Masai Mara National Reserve park area is huge, over
+        1,500<br />
+        square kilometers of mainly grassland, extending all the way to the<br />
+        Serengeti plain of Tanzania. The popular times to visit are during
+        the<br />
+        twice-yearly migrations, the main one being in July and August. Over
+        a<br />
+        million wildebeest and other animals cross the area in huge groups to
+        go<br />
+        from one feeding area to another. Most visitors fly into
+        <a
+          href="https://www.planetware.com/tourist-attractions-/nairobi-ken-nrb-nairobi.htm"
+          target="_blank"
+          >Nairobi,</a
+        >
+        then<br />
+        take a small bush plane to the Mara.<br />
+      </p>
+    </div>
+
+    <!-- footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">
+              Additional Information
+            </h6>
+            <p>
+              The airline industry is the world's largest and most diverse, with
+              more than 360 airlines flying to more than 180 destinations.
+              Passenger demand, competition and changes in technology continue
+              to influence all aspects of the industry.
+            </p>
+            <p>
+              Surcharges, along with other taxes and fees Regardless of where
+              the airline ticket was purchased, passengers who are departing the
+              Country are required to pay the Travel Tax, which is a tax imposed
+              by the government of the Philippines.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">Address</h6>
+
+            <p>
+              938 Aurora Blvd, Cubao, Quezon City, 1109 Metro Manila
+
+              <br />Quictix@mywebsite.com
+
+              <br />(02) 8911 0964
+
+              <br />(02) 8911 0964
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center">
+        © 2022 Copyright: QuickTix.com
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

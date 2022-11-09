@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap%27%22");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1rem;
+  background: #f6f4e8;
+}
+
+.logo {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  font-size: 1.3rem !important;
+}
+
+.color {
+  align-self: center;
+  color: red;
+}
+
+.active {
+  border-bottom: 1px solid black;
+  transition: all 0.7s ease-in-out;
+  color: red !important;
+}
+
+ul li a:hover {
+  color: red !important;
+}
+
+.button {
+  color: black;
+  font-weight: 700;
+}
+
+.button:hover {
+  color: #fff !important;
+  background-color: black;
+  font-weight: 700;
+}
+.nav-link {
+  color: #666 !important;
+  font-family: "Quicksand", sans-serif;
+}
+.containers {
+  display: flex;
+  justify-content: space-between;
+  height: 65vh;
+  background-color: #a3b4c8;
+}
+.content-faq {
+  padding-top: 6.8em;
+  margin-left: 5rem;
+  color: white;
+  font-family: "Merriweather", serif;
+}
+.content-faq h1 {
+  font-family: "Merriweather", serif;
+  font-size: 5rem;
+}
+.content-faq p {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.faq-img {
+  border: 5px double black;
+  margin-top: 0;
+  margin-bottom: 0;
+  animation: 1s animate ease-in-out;
+  height: 65vh;
+  margin-right: 10px;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.text-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.body-text {
+  width: 48%;
+}
+.secondbody-text {
+  width: 48%;
+}
+.first-text {
+  border: 3px solid #222;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 5px;
+}
+.first-text h1 {
+  font-size: 20px;
+}
+
+/* .hide-lg {
+  display: none;
+} */
+
+@media (max-width: 1000px) {
+  /* .hide-sm {
+    display: none;
+  } */
+}
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1001px) {
+}

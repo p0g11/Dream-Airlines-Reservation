@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome link -->
+    <script
+      src="https://kit.fontawesome.com/b7c265b79a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>HOME | AIRLINE</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #f6f4e8"
+      >
+        <div class="container-md">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="./assets/img/logo.png" alt="" />DREAM
+            <span class="color">AIRLINE</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../final_project-main/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="services.html"
+                      >Plan travel</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="http://localhost/login_system/login_form.php"
+                      >Book now!</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Help and Support
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact us</a>
+                  </li>
+                  <li><a class="dropdown-item" href="FAQ'S.html">FAQ's</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- carousel -->
+    <div
+      class="carousel slide"
+      data-bs-ride="carousel"
+      id="carouselExampleIndicators"
+    >
+      <div class="overlay"></div>
+      <div class="carousel-indicators">
+        <button
+          aria-label="Slide 1"
+          class="active"
+          data-bs-slide-to="0"
+          data-bs-target="#carouselExampleIndicators"
+          type="button"
+        ></button>
+        <button
+          aria-label="Slide 2"
+          data-bs-slide-to="1"
+          data-bs-target="#carouselExampleIndicators"
+          type="button"
+        ></button>
+        <button
+          aria-label="Slide 3"
+          data-bs-slide-to="2"
+          data-bs-target="#carouselExampleIndicators"
+          type="button"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img
+            alt="..."
+            class="img-carousel d-block"
+            src="./assets/img/bg-img-2.jpeg"
+          />
+          <div class="carousel-caption hide-sm">
+            <div class="container text-content">
+              <h1 class="title-company">
+                TO TRAVEL <br />
+                IS<br />TO LIVE
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img
+            alt="..."
+            class="img-carousel d-block"
+            src="./assets/img/bg-img-3.jpeg"
+          />
+          <div class="carousel-caption hide-sm">
+            <div class="container text-content">
+              <h1 class="title-company">
+                WORK, <br />
+                TRAVEL, <br />
+                SAVE,<br />
+                REPEAT
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img
+            alt="..."
+            class="img-carousel d-block"
+            src="./assets/img/bg-img-3.jpeg"
+          />
+          <div class="carousel-caption hide-sm">
+            <div class="container text-content">
+              <h1 class="title-company">
+                WE TRAVEL <br />
+                not to escape life<br />BUT FOR LIFE<br />not to escape us
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        data-bs-slide="prev"
+        data-bs-target="#carouselExampleIndicators"
+        type="button"
+      >
+        <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        data-bs-slide="next"
+        data-bs-target="#carouselExampleIndicators"
+        type="button"
+      >
+        <span aria-hidden="true" class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- FOOTER -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">
+              Additional Information
+            </h6>
+            <p>
+              The airline industry is the world's largest and most diverse, with
+              more than 360 airlines flying to more than 180 destinations.
+              Passenger demand, competition and changes in technology continue
+              to influence all aspects of the industry.
+            </p>
+            <p>
+              Surcharges, along with other taxes and fees Regardless of where
+              the airline ticket was purchased, passengers who are departing the
+              Country are required to pay the Travel Tax, which is a tax imposed
+              by the government of the Philippines.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">Address</h6>
+
+            <p>
+              938 Aurora Blvd, Cubao, Quezon City, 1109 Metro Manila
+
+              <br />Quictix@mywebsite.com
+
+              <br />(02) 8911 0964
+
+              <br />(02) 8911 0964
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center">
+        © 2022 Copyright: QuickTix.com
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

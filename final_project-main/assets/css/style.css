@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap%22");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#hider {
+  border: none;
+  background: none;
+  color: blue;
+  text-decoration: underline;
+}
+.form-container {
+  background-color: #222;
+  color: #ccc;
+  padding: 5em;
+  margin: 5em auto;
+  border-radius: 30px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  background-color: #f6f4e8;
+}
+
+.book {
+  border: black 1px solid;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  color: rgb(228, 12, 12);
+}
+
+.dropdown-menu {
+  position: relative;
+  z-index: 11111111;
+}
+.img-size {
+  width: auto;
+}
+
+.text-content .title-company {
+  position: relative;
+  z-index: 111111;
+  font-size: 55rem !important;
+  font-family: "Fredoka One", cursive;
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1111;
+}
+
+.logo {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  font-size: 1.3rem !important;
+}
+
+.color {
+  align-self: center;
+  color: red;
+}
+
+.active {
+  border-bottom: 1px solid black;
+  transition: all 0.7s ease-in-out;
+  color: red !important;
+}
+.nav-link {
+  color: #666 !important;
+  font-family: "Quicksand", sans-serif;
+}
+
+ul li a:hover {
+  color: red !important;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 49.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+.button {
+  color: black;
+  font-weight: 700;
+}
+
+.button:hover {
+  color: #fff !important;
+  background-color: black;
+  font-weight: 700;
+}
+
+.text-content .title-company {
+  font-size: 5.5rem !important;
+  font-weight: 700;
+}
+
+.text-content p {
+  width: 55%;
+  margin: 0 0 1em 19em;
+  font-size: 1rem !important;
+  padding-left: 2rem !important;
+}
+.quotes-title p {
+  width: 100%;
+  font-size: 1.4rem !important;
+  font-weight: bold;
+  padding-right: 2rem !important;
+}
+.sub-content-container {
+  display: flex;
+  text-align: center;
+  gap: 10em;
+}
+
+.sub-content {
+  padding: 5em;
+  margin: 5em;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.item01,
+.item02 {
+  display: flex;
+  gap: 0.5em;
+  margin: 5em;
+}
+
+.content-container .text-content p {
+  font-size: 1rem;
+  margin-top: 6.5em;
+}
+
+.team-mate {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-left: 180px;
+  padding-bottom: 5em;
+}
+
+.team-1 {
+  grid-column: 1 / 2;
+}
+
+.hero-content {
+  background-color: rgba(34, 34, 34, 0.121);
+  height: 70vh;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 37.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+.text-content p {
+  width: 100%;
+  margin-left: 0px;
+  font-size: 1rem;
+}
+
+/* .text-content .title-company {
+  font-size: 2.5rem !important;
+  font-weight: 700;
+  width: 100%;
+} */
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+.content {
+  background-color: rgba(34, 34, 34, 0.121);
+}
+
+.card {
+  width: 60% !important;
+  margin-left: 0px;
+}
+
+.hide-lg {
+  display: none !important;
+}
+
+/* contact us style */
+.containers {
+  display: flex;
+  justify-content: space-between;
+  height: 65vh;
+  background-color: #a3b4c8;
+  color: #fff;
+  font-size: 2.5rem;
+}
+.content-faq {
+  padding-top: 8rem;
+  margin-left: 5rem;
+}
+
+.content-faq h1 {
+  font-family: "Merriweather", serif;
+  font-size: 5rem;
+}
+.content-faq p {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.faq-img {
+  height: 65vh;
+  margin-right: 10px;
+}
+
+.container-contact {
+  display: flex;
+  gap: 1rem;
+}
+
+/* media query */
+
+@media screen and (max-width: 1280px) {
+  .hero-content {
+    background-color: rgba(34, 34, 34, 0.121);
+    height: 50vh;
+  }
+}
+
+@media (max-width: 1025px) {
+  .text-content p {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 1.5rem;
+  }
+  .text-content .title-company {
+    font-size: 6rem !important;
+    margin-left: 0 !important;
+    top: 2em;
+  }
+  .sub-content-container {
+    flex-direction: column;
+  }
+  .hero-content {
+    background-color: rgba(34, 34, 34, 0.121);
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero-content {
+    background-color: rgba(34, 34, 34, 0.121);
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .team-mate {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 0 !important;
+  }
+  .img-size {
+    width: auto;
+  }
+
+  .img-content {
+    width: 10px;
+  }
+  .card {
+    width: 100% !important;
+  }
+  .sub-content-container {
+    flex-direction: column;
+  }
+  .sub-content .p-5 .m-5 {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .team-mate {
+    grid-template-columns: 1fr;
+  }
+  .hero-content-text {
+    display: none;
+  }
+  .hide-lg {
+    display: block !important;
+  }
+  .sub-content {
+    width: 100%;
+    margin: 0;
+    padding: 5em 0 0 0;
+  }
+  .sub-content-container {
+    gap: 5em;
+  }
+}
+
+@media (max-width: 770px) {
+  .img-size {
+    width: 100%;
+  }
+  .hero-content {
+    background-color: rgba(34, 34, 34, 0.121);
+    height: 30vh;
+  }
+}
+@media (max-width: 414px) {
+  .hero-content {
+    background-color: rgba(34, 34, 34, 0.121);
+    height: 50vh;
+  }
+}
+@media (max-width: 390px) {
+  .hero-content {
+    background-color: rgba(34, 34, 34, 0.121);
+    height: 40vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-content {
+    background-color: rgba(34, 34, 34, 0.121);
+    height: 50vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  .img-size {
+    width: 100%;
+  }
+  .hero-content {
+    background-color: rgba(34, 34, 34, 0.121);
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 0.9rem;
+  }
+  .img-size {
+    width: 100%;
+  }
+  .about-us {
+    padding: 0;
+    margin: 0;
+  }
+  .hero-content {
+    background-color: rgba(34, 34, 34, 0.121);
+    height: 60vh;
+  }
+}
